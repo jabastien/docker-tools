@@ -36,6 +36,17 @@ entries:
     version: 0.1.0
   chartlib:
   - apiVersion: v2
+    created: "2021-08-02T05:25:27.119368874Z"
+    description: Standard templates library
+    digest: d17a34aca7938d8529c2738904e4e112a85e41cedfd50738f759307a90189c28
+    name: chartlib
+    sources:
+    - https://github.com/instantlinux/docker-tools
+    type: library
+    urls:
+    - https://github.com/instantlinux/docker-tools/releases/download/chartlib-0.1.5/chartlib-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     created: "2021-07-27T01:39:58.98716257Z"
     description: Standard templates library
     digest: d39ad42a242d91fe1c0f6e9ab2a337c7028ef8ed04fb47ec1318d0d3e2c8c500
@@ -378,4 +389,4 @@ entries:
     urls:
     - https://github.com/instantlinux/docker-tools/releases/download/spamassassin-0.1.0/spamassassin-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-27T01:39:58.987174671Z"
+generated: "2021-08-02T05:25:27.119380472Z"
