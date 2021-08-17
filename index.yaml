@@ -3,6 +3,20 @@ entries:
   artifactory:
   - apiVersion: v2
     appVersion: 6.15.1
+    created: "2021-08-17T14:49:18.392101005Z"
+    dependencies:
+    - name: chartlib
+      repository: https://instantlinux.github.io/docker-tools
+      version: 0.1.6
+    description: JFrog Artifactory service
+    digest: a9ff09e759da99753328b01f1b5f0f83c8400218e38fb98efaf7c93a5b931898
+    name: artifactory
+    type: application
+    urls:
+    - https://github.com/instantlinux/docker-tools/releases/download/artifactory-0.1.5/artifactory-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 6.15.1
     created: "2021-08-10T04:55:38.112886317Z"
     dependencies:
     - name: chartlib
@@ -44,6 +58,30 @@ entries:
     - https://github.com/instantlinux/docker-tools/releases/download/artifactory-0.1.0/artifactory-0.1.0.tgz
     version: 0.1.0
   authelia:
+  - apiVersion: v2
+    appVersion: 4.26.1
+    created: "2021-08-17T14:49:18.577641018Z"
+    dependencies:
+    - name: chartlib
+      repository: https://instantlinux.github.io/docker-tools
+      version: 0.1.5
+    - name: ldap
+      repository: file://subcharts/ldap
+      version: 0.1.0
+    - name: redis
+      repository: file://subcharts/redis
+      version: 0.1.0
+    description: Authelia single-signon with MFA
+    digest: 4e085ff4a7d76d70c10497056ff7db54242d6be94b4b6798425c9d3f6833edb0
+    home: https://github.com/instantlinux/docker-tools
+    name: authelia
+    sources:
+    - https://github.com/instantlinux/docker-tools
+    - https://github.com/authelia/authelia
+    type: application
+    urls:
+    - https://github.com/instantlinux/docker-tools/releases/download/authelia-0.1.1/authelia-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 4.26.1
     created: "2021-08-10T04:55:38.299646119Z"
@@ -1157,4 +1195,4 @@ entries:
     urls:
     - https://github.com/instantlinux/docker-tools/releases/download/wxcam-upload-0.1.1/wxcam-upload-0.1.1.tgz
     version: 0.1.1
-generated: "2021-08-10T04:55:45.470724884Z"
+generated: "2021-08-17T14:49:22.438396737Z"
