@@ -145,6 +145,17 @@ entries:
     version: 0.1.0
   chartlib:
   - apiVersion: v2
+    created: "2021-08-26T04:59:37.641514194Z"
+    description: Standard templates library
+    digest: 7c3c3c5f34992b5eae185c08707f1c99045e5a75b07a6165f318b4a30da84183
+    name: chartlib
+    sources:
+    - https://github.com/instantlinux/docker-tools
+    type: library
+    urls:
+    - https://github.com/instantlinux/docker-tools/releases/download/chart-chartlib-0.1.7/chartlib-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
     created: "2021-08-10T04:55:38.68932653Z"
     description: Standard templates library
     digest: 232ec37b5439113808953b2fc6f04961d671df24aef3d6bb9f9a55012b196172
@@ -1195,4 +1206,4 @@ entries:
     urls:
     - https://github.com/instantlinux/docker-tools/releases/download/wxcam-upload-0.1.1/wxcam-upload-0.1.1.tgz
     version: 0.1.1
-generated: "2021-08-17T14:49:22.438396737Z"
+generated: "2021-08-26T04:59:41.071884353Z"
